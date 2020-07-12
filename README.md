@@ -2,8 +2,16 @@
 
 한국어 Byte Level BPE를 위한 Repository 입니다.
 
-### train from scratch
+### Requirements
+- Python 3.7 (recommended)
+- tokenizers
+- gensim
+- jupyter notebook
+- pandas
+
+### Train from scratch
 ```
+mkdir wiki_dump
 cd wiki_dump
 wget https://dumps.wikimedia.org/kowiki/latest/kowiki-latest-pages-articles.xml.bz2
 cd ../python wiki_preprocessing.py
